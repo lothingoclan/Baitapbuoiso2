@@ -1,0 +1,85 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package baitapbuoiso2;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author DELL
+ */
+public class bai1 {
+   Scanner input = new Scanner(System.in);
+    int n = input.nextInt();
+    int tram = n/10;
+    int chuc = n%10;
+    int donvi = n%10;
+    { 
+    {
+    if (tram==1)
+    {System.out.print("Mot tram");}
+    else if (tram==2)
+    {System.out.print("Hai tram");}
+    else if (tram==3)
+    {System.out.print("Ba tram");}
+    else if (tram==4)
+    {System.out.print("Bon tram");}
+    else if (tram==5)
+    {System.out.print("Nam tram");}
+    else if (tram==6)
+    {System.out.print("Sau tram");}
+    else if (tram==7)
+    {System.out.print("Bay tram");}
+    else if (tram==8)
+    {System.out.print("Tam tram");}
+    else if (tram==9)
+    {System.out.print("Chin tram");}
+    }
+    {
+    if (chuc==2)
+    {System.out.print(" hai muoi");}
+    else if (chuc==3)
+    {System.out.print(" ba muoi");}
+    else if (chuc==4)
+    {System.out.print(" bon muoi");}
+    else if (chuc==5)
+    {System.out.print(" nam muoi");}
+    else if (chuc==6)
+    {System.out.print(" sau muoi");}
+    else if (chuc==7)
+    {System.out.print(" bay muoi");}
+    else if (chuc==8)
+    {System.out.print(" tam muoi");}
+    else if (chuc==9)
+    {System.out.print(" chin muoi");}
+    else if (chuc==1)
+    {System.out.print(" muoi");}
+    }
+    {
+    if (donvi==0)
+    {System.out.print(" ");}
+    else if (donvi==1)
+    {System.out.print(" mot");}
+    else if (donvi==2)
+    {System.out.print(" hai");}
+    else if (donvi==3)
+    {System.out.print(" ba");}
+    else if (donvi==4)
+    {System.out.print(" bon");}
+    else if (donvi==5)
+    {System.out.print(" nam");}
+    else if (donvi==6)
+    {System.out.print(" sau");}
+    else if (donvi==7)
+    {System.out.print(" bay");}
+    else if (donvi==8)
+    {System.out.print(" tam");}
+    else if (donvi==9)
+    {System.out.print(" chin");}
+    }
+    }
+}
+

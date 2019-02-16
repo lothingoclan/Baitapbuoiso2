@@ -1,0 +1,26 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package baitapbuoiso2;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author DELL
+ */
+public class bai3 {
+    Scanner input = new Scanner(System.in);
+    int h = input.nextInt();    
+    {
+        for ( int i = 0; i<h ; i++)
+        
+        for (int k = 0; k<h-i; k++)
+        {System.out.print("");}
+        for (int j = 0 i<2i+1; j++)
+        {System.out.print("*");}
+        System.out.println(" ");
+    }
+}
